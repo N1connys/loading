@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.niko
+{
+
+    width: 200px;
+    height: 200px;
+    margin-top:300px;
+    margin-left:600px;
+    position: relative;
+}
+.yuan
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(177, 177, 83);
+    border-radius: 50%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: 2s s linear infinite;
+}
+.yuan:nth-child(2)
+{
+    animation-delay: 1s;
+}
+@keyframes s
+{
+0%{ width: 0px; height: 0px; opacity: 1;}
+100%{width:200px;height: 200px; opacity: 0.3;}
+}
